@@ -60,7 +60,7 @@ organize_log.txt
 ```
 Preview undo:
 ```
-organize --undow ~/Downloads/organize_log.txt
+organize --undo ~/Downloads/organize_log.txt
 ```
 Undo for real:
 ```
@@ -80,7 +80,7 @@ Example:
   "Code": [".py", ".js", ".ts"]
 }
 ```
-Rune with:
+Run with:
 ```
 organize ~/Downloads --config rules.json
 ```
