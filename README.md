@@ -36,3 +36,94 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -e .
+```
+
+🧠 Basic Usage
+Dry run (preview only)
+
+```
+organize `/Downloads
+```
+Apply changes:
+```
+organize ~/Downloads --apply
+```
+Recursive organize:
+```
+organize ~/Downloads --recursive
+```
+🔁 Undo a Run
+
+When you apply changes, a log file is created:
+```
+organize_log.txt
+```
+Preview undo:
+```
+organize --undow ~/Downloads/organize_log.txt
+```
+Undo for real:
+```
+organize --undo ~/Downloads/organize_log.txt --apply
+```
+Undo operations are performed in reverse order and avoid overwriting files.
+
+⚙️ Custom Rules (JSON Config)
+
+You can define your own categories and file extensions using a JSON file.
+
+Example:
+```
+{
+  "Images": [".png", ".jpg", ".jpeg"],
+  "Docs": [".pdf", ".txt", ".md"],
+  "Code": [".py", ".js", ".ts"]
+}
+```
+Rune with:
+```
+organize ~/Downloads --config rules.json
+```
+If a file doesn't match any category, it goes into:
+```
+Other/<extension>/
+```
+🛡️ Safety Notes
+
+-The tool never moves files unless --apply is used
+
+-Dry run is always the default
+
+-Undo logs are written only when applying changes
+
+-Existing files are never overwritten (suffixes are added automatically)
+
+
+📌 Recommended Workflow
+
+1) Run a dry run:
+```
+organize TARGET_FOLDER
+```
+2) Review the output
+3) Apply changes:
+```
+organize TARGET_FOLDER --apply
+```
+4) If needed, undo using the generated log (The log gets placed in Docs during organization)
+------------------------
+
+🧩 Python Version
+
+Python 3.10+ required
+
+
+📄 License
+
+MIT License — see the LICENSE file for details.
+
+
+👤 Author
+
+DaveR0b0t
+Built as a learning project and evolved into a reusable CLI tool.
