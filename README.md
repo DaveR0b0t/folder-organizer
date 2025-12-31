@@ -42,7 +42,7 @@ pip install -e .
 Dry run (preview only)
 
 ```
-organize `/Downloads
+organize ~/Downloads
 ```
 Apply changes:
 ```
