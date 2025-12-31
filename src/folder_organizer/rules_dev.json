@@ -1,0 +1,55 @@
+{
+  "Source": [
+    ".py", ".pyi",
+    ".js", ".ts", ".jsx", ".tsx",
+    ".html", ".css", ".scss", ".sass",
+    ".json", ".yml", ".yaml", ".toml", ".ini", ".cfg",
+    ".xml",
+    ".sh", ".bat", ".ps1",
+    ".java", ".kt",
+    ".c", ".cpp", ".h", ".hpp",
+    ".go", ".rs",
+    ".php", ".rb", ".lua",
+    ".sql"
+  ],
+
+  "Notebooks": [
+    ".ipynb"
+  ],
+
+  "Docs": [
+    ".md", ".rst",
+    ".pdf", ".txt"
+  ],
+
+  "Images": [
+    ".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"
+  ],
+
+  "Data": [
+    ".csv", ".tsv",
+    ".jsonl",
+    ".parquet", ".avro",
+    ".db", ".sqlite", ".sqlite3"
+  ],
+
+  "Archives": [
+    ".zip", ".tar", ".gz", ".bz2", ".xz", ".7z"
+  ],
+
+  "Logs": [
+    ".log"
+  ],
+
+  "Build": [
+    ".o", ".obj",
+    ".so", ".dll", ".dylib",
+    ".class", ".jar",
+    ".exe"
+  ],
+
+  "Fonts": [
+    ".ttf", ".otf"
+  ]
+}
+

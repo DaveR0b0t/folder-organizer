@@ -1,0 +1,21 @@
+{
+  "Images": [".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp", ".tiff", ".heic", ".svg"],
+  "Videos": [".mp4", ".mkv", ".mov", ".avi", ".webm", ".m4v"],
+  "Audio":  [".mp3", ".wav", ".flac", ".aac", ".ogg", ".m4a"],
+  "Docs":   [".pdf", ".txt", ".doc", ".docx", ".md", ".rtf", ".odt"],
+  "Sheets": [".csv", ".xls", ".xlsx", ".ods"],
+  "Slides": [".ppt", ".pptx", ".odp"],
+
+  "Archives": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2", ".xz"],
+  "DiskImages": [".iso", ".img"],
+  "Installers": [".exe", ".msi", ".dmg", ".pkg", ".deb", ".rpm", ".appimage"],
+
+  "Fonts": [".ttf", ".otf", ".woff", ".woff2"],
+  "Subtitles": [".srt", ".ass", ".vtt"],
+
+  "Config": [".json", ".yml", ".yaml", ".toml", ".ini", ".cfg"],
+  "Logs": [".log"],
+
+  "Code": [".py", ".js", ".ts", ".html", ".css", ".xml", ".sh", ".bat", ".ps1", ".java", ".c", ".cpp", ".h", ".hpp", ".go", ".rs"]
+}
+

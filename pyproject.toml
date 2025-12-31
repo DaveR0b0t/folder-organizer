@@ -1,0 +1,28 @@
+[build-system]
+# Tells pip how to build your package
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "folder-organizer"
+version = "0.1.0"
+description = "A safe file organizer CLI with dry-run, undo logs, and JSON rules"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Dave" }
+]
+dependencies = []
+
+# This creates the actual CLI command on install:
+# After install you can run: `organize ...`
+[project.scripts]
+organize = "folder_organizer.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
