@@ -23,4 +23,4 @@ This tool helps you organize folders (Downloads, Desktop, project directories, e
 This installs the CLI globally but safely in its own environment.
 
 ```bash
-pipx install git+https://github.com/YOUR_USERNAME/folder-organizer.git
+pipx install git+https://github.com/DaveR0b0t/folder-organizer.git
