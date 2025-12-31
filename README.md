@@ -24,3 +24,15 @@ This installs the CLI globally but safely in its own environment.
 
 ```bash
 pipx install git+https://github.com/DaveR0b0t/folder-organizer.git
+```
+
+### Option 2: Devolpment install(editable):
+
+```
+git clone https://github.com/DaveR0b0t/folder-organizer.git
+cd folder-organizer
+
+python -m venv .venv
+source .venv/bin/activate
+
+pip install -e .
