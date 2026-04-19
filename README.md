@@ -1,5 +1,7 @@
 # folder-organizer
 
+[![Tests](https://github.com/DaveR0b0t/folder-organizer/actions/workflows/tests.yml/badge.svg)](https://github.com/DaveR0b0t/folder-organizer/actions/workflows/tests.yml)
+
 folder-organizer is a safe and configurable file organizer CLI with dry run mode by default, undo support, and JSON-based rules.
 
 It helps you organize folders such as Downloads, Desktop, or project directories by file type without moving anything until you explicitly apply the changes.
